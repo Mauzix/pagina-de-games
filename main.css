@@ -1,0 +1,100 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+header ,section h2{
+    font-family: "Bungee", sans-serif;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+header{
+    background-color: #180668;
+    color: beige;
+    padding: 19px;
+}
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    
+}
+header  nav a{
+    color: beige;
+    text-decoration: none;
+}
+    header li :hover{
+        color: blue;
+
+    }
+    header .v:hover{
+        color: red;
+    }
+
+  
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    
+    
+}
+header .container , section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+/*inicio do conteudo*/
+.marcas img{
+    height: 26px;
+    
+}
+.marcas li{
+    display: inline;
+    
+}
+section .container{
+   align-items: flex-start;
+   color: #180668;
+
+   
+}
+section{
+    padding: 10px;
+}
+section h2{
+    margin-bottom: 16px;
+    color:#180668 ;
+}
+section p{
+    margin-bottom: 8px;
+
+
+}
+section img{
+    margin right: 32px ;
+}
+.links img{
+  height: 30px;
+  
+    
+
+}
+.links ul li{
+    display: inline;
+}
+.container{
+justify-content: space-between;
+}
+
+
+section .conteudo{
+    margin-left: 20px;
+}
+form input textarea{
+    margin: 10px;
+
+}
